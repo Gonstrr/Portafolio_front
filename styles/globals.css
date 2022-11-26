@@ -1,0 +1,53 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css';
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  padding: 0;
+  margin: auto;
+  background-size: cover;
+  background-image: url("https://www.lapiojera.cl/wp-content/uploads/2019/07/Slide-2.jpg");
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: rgb(0, 1, 80);
+    background: black;
+  }
+}
+
+@media (min-width: 769px) {
+  .item-container {
+    flex-direction: row;
+    display: flex;
+  }
+}
+
+.btnlog{
+  align-items: center;
+  background-color: aliceblue;
+
+}
+
+.page-controlle{
+  margin: 20px;
+}

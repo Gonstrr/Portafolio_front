@@ -1,0 +1,33 @@
+{
+  "name": "frontend-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.13.0",
+    "axios": "0.27.2",
+    "bulma": "0.9.4",
+    "constate": "3.3.2",
+    "cookies-next": "2.1.1",
+    "getclass.react": "1.0.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-async": "10.0.1",
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.34.2",
+    "react-select": "^5.5.4",
+    "url-template": "3.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.8",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "8.4.16",
+    "tailwindcss": "3.1.8"
+  }
+}
