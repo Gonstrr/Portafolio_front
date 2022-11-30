@@ -49,7 +49,7 @@ const UserButtons = ({id, username, actions}) => {
 const UserItem = ({username, id, actions, key}) => {
   return (
     <li
-      className="border-double border-4 border-sky-200 panel-block is-flex item-container is-justify-content-space-between mt-5"
+      className="border-1 border-sky-200 is-centered panel-block is-flex item-container is-justify-content-space-between " 
       id={id}
       key={key}
     >

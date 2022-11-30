@@ -50,7 +50,7 @@ const TableButtons = ({id, number, actions}) => {
   )
 }
 
-const TableItem = ({number, id, actions, key}) => {
+const TableItem = ({number,image, id, actions, key}) => {
   return (
     <li
       className="border-double border-4 border-sky-200 is-centered panel-block is-flex item-container is-justify-content-space-between " 
@@ -58,7 +58,10 @@ const TableItem = ({number, id, actions, key}) => {
       key={key}
     >
       <div className="table-left  is-flex is-justify-content-space-between mt-9 ">
-        <span className="table-number ml-5 my-5">{`Mesa Numero: ${number}`}</span>
+      <figure className="image is-128x128  is-hidden-mobile">
+          <img src="static/table.png" alt="Product image" class="ml-4 h-16 w-16 flex items-center justify-center"  />
+        </figure>
+        <span className="table-number ml-6 my-11 text-black">{`Mesa Numero: ${number}`}</span>
       </div>
       <TableButtons id={id} number={number} actions={actions} />
     </li>

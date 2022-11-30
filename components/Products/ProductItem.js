@@ -59,13 +59,13 @@ const ProductButtons = ({id, title, actions, state}) => {
 const ProductItem = ({title, image, id, actions, state, key}) => {
   return (
     <li
-      className="border-double border-4 border-sky-200 panel-block is-flex item-container is-justify-content-space-between"
+      className="border-1 border-sky-200 is-centered panel-block is-flex item-container is-justify-content-space-between "  
       id={id}
       key={key}
     >
       <div className="product-left is-flex is-justify-content-space-between mt-9 ">
         <figure className="image is-128x128  is-hidden-mobile">
-          <img src={image} alt="Product image" class="rounded-full h-16 w-16 flex items-center justify-center"  />
+          <img src={image} alt="Product image" class=" rounded-full h-16 w-16 flex items-center justify-center"  />
         </figure>
         <span className="product-title ml-4 text-center my-5"> {`Producto: ${title}`}</span>
       </div>

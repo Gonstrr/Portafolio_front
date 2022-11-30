@@ -23,7 +23,7 @@ const Categories = ({state, actions}) => {
   if (isLoading) return <div>Loading</div>
   return (
     <div className="is-centered">
-      <ul className="border-solid border-0  is-flex is-flex-direction-column">
+      <ul className="border-solid is-responsive is-flex is-flex-direction-column">
         {categories.map(({id, title, image}, index) => (
           <CategoryItem
           

@@ -9,13 +9,15 @@ const Login = () => {
 
         
         <div className="columns" >
+    
           <div className="column" class="mt-40 is responsive grid-cols-2 flex items-center">
+            <h1 class="mr-9 text-white text-center font-mono text-5xl italic">Restaurante Siglo XXI </h1>
             <Image
               className="w-full"
               alt="logo"
-              src="/static/logo.png"
-              width={420}
-              height={180}
+              src="/static/coci.jpeg"
+              width={400}
+              height={380}
             />
           </div>
           <div className="column">

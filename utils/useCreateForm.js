@@ -43,7 +43,7 @@ const useCreateForm = () => {
                           inputRef={field.ref}
                           onChange={(v) => field.onChange(v)}
                           defaultValue={defaultValues}
-                          className="form-control block w-full text-xl font-normal text-gray-700 bg-white bg-clip-padding rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                          className="form-control block px-4 py-3 w-full text-xl font-normal text-gray-700 bg-white bg-clip-padding rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                           options={options}
                           {...otherProps}
                         />
@@ -54,7 +54,7 @@ const useCreateForm = () => {
               }
               if (type === 'checkbox')
                 return (
-                  <div className="mb-6">
+                  <div className="mb-7">
                     <label htmlFor={id}>{`${text} `}</label>
                     <input
                       type={type}
@@ -68,7 +68,7 @@ const useCreateForm = () => {
                   </div>
                 )
               return (
-                <div className="mb-6">
+                <div className="mb-7">
                   <label htmlFor={id}>{`${text}`}</label>
                   <input
                     type={type}

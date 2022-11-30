@@ -3,7 +3,7 @@ import Users from '../Users/Users'
 
 const UsersComponent = (props) => {
   return (
-    <div id="usersComponent" className="panel has-background-white p-5 m-5">
+    <div id="usersComponent" className="panel has-background-white p-2">
       <CreateUser {...props} />
       <Users {...props} />
     </div>

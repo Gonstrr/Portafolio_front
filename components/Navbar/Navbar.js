@@ -30,7 +30,7 @@ const Navbar = (props) => {
       <div className="navbar-brand">
         <a className="navbar-item">
           <Image alt="logo" src="/static/logo.png" width={500} height={500} />
-          <span className="user-title ml-3">{`Bienvenido ${props.session.username}!`}</span>
+          <span className="user-title ml-3">{`Bienvenido Usuario: ${props.session.username}`}</span>
         </a>
 
         <a

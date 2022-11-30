@@ -50,7 +50,7 @@ const CreateTable = ({state, actions}) => {
   return (
     <div
       id="create-Table"
-      className="border-double border-4 border-sky-200 panel-heading is-flex is-align-items-flex-end is-justify-content-flex-center"
+      className="border-sky-200 panel-heading is-flex is-align-items-flex-end is-justify-content-flex-start "
     >
       <button
           className="button is-responsive mx-72 is-success w-64 bg-white shadow rounded bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"

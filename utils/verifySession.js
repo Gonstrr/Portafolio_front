@@ -23,6 +23,9 @@ const verifySession = async ({req, res}) => {
       isValid: true,
     }
   }
+  else{
+    prompt('Ingrese los campos correctos')
+  }
 }
 
 export {verifySession}

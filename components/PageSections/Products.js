@@ -3,7 +3,7 @@ import Products from '../Products/Products'
 
 const ProductsComponent = (props) => {
   return (
-    <div id="productComponent" className="panel has-background-white p-5 m-5">
+    <div id="productComponent" className="panel has-background-white p-2">
       <CreateProduct {...props} />
       <Products {...props} />
     </div>
